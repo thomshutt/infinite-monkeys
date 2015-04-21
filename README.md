@@ -1,7 +1,7 @@
 # infinite-monkeys
 Pooling the wisdom of Hacker News comments into an eBook.
 
-Inspired by the 'What are the most uplifting comments you've read on HN?' [discussion](https://news.ycombinator.com/item?id=9393213)
+Inspired by the [What are the most uplifting comments you've read on HN?](https://news.ycombinator.com/item?id=9393213) discussion
 
 ### Download the latest version:
 
