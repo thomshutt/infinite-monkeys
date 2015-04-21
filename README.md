@@ -9,4 +9,4 @@ Inspired by the [What are the most uplifting comments you've read on HN?](https:
 
 [MOBI](https://github.com/thomshutt/infinite-monkeys/raw/master/output/infinite-monkeys.mobi)
 
-[HTML](http://thomshutt.github.io/infinite-monkeys/output/infinite-monkeys.html)
+[HTML](http://thomshutt.github.io/infinite-monkeys)
