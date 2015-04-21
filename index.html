@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Infinite Mokeys - The Wisdom of Hacker News</title>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    #ebook .jumbotron {
+      background-color: rgba(255,102,0,0.85); /* HN Orange, softened a bit */
+    }
+    #ebook .jumbotron * {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="ebook"></div>
+  </div>
+  
+  <script type="text/javascript">
+    // import the ebook HTML file
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'output/infinite-monkeys.html', true);
+    xhr.onreadystatechange= function() {
+        if (this.readyState!==4) return;
+        if (this.status!==200) return; // or whatever error handling you want
+
+        // strip out the content within the body
+        var ebookContent = this.responseText;
+        var innerHTML = ebookContent.substring(ebookContent.indexOf('<body>')+6, ebookContent.lastIndexOf('</body>'));
+        document.getElementById('ebook').innerHTML = innerHTML;
+        
+        
+        // Modify the doc to be more bootstrappy
+
+        // put the header inside a jumbotron
+        var header = document.getElementById('header');
+        if (header != null) {
+          header.classList.add('jumbotron', 'text-center');
+          // if the title has a subheading, split it into a separate h2
+          var header_h1 = header.querySelector('h1');
+          if (header_h1.innerHTML.indexOf(' - ') > -1) { // if it looks like there's a subtitle
+            var header_h2 = document.createElement('h2');
+            var h1_text = header_h1.innerHTML.split(' - ')[0];
+            var h2_text = header_h1.innerHTML.split(' - ')[1];
+            header_h1.innerHTML = h1_text;
+            header_h2.innerHTML = h2_text;
+            header.appendChild(header_h2);
+          }
+        }
+        // if the TOC has no heading, gice it one
+        var toc = document.getElementById('TOC');
+        if (toc != null) {
+          if (toc.querySelector('h1') == null) {
+            toc_heading = document.createElement('h1');
+            toc_heading.innerHTML = 'Table of Contents';
+            toc.insertBefore(toc_heading, toc.firstChild);
+          }
+        }
+    };
+  xhr.send();
+  </script>
+</body>
+</html>
