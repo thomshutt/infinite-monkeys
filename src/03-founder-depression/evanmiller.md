@@ -14,7 +14,7 @@ If you talk to e.g. people who've gone through rigorous Ph.D. programs, you'll f
 
 Anyway I don't think the problem here is "not enough success," and I don't think the solution is having more coffee meetings. Founders need to take a hard look in the mirror and ask themselves why they're doing what they're doing and whether their depression is truly a function of their free cash flow or if there's a deeper dissonance between the founder's feelings and the expectations of society, i.e. the heroic mythology of the founder that Silicon Valley has been inculcating in susceptible teenagers for the last 20 years.
 
-Just my 2c. I am not a founder just an observer and aspiring societal psychiatrist. If you want to learn more I highly recommend the book "The Wisdom of the Enneagram".
+Just my 2c. I am not a founder just an observer and aspiring societal psychiatrist. If you want to learn more I highly recommend the book "[The Wisdom of the Enneagram](http://amzn.to/1Ddaaym)".
 
 It looks a lot like astrological pseudoscientific trash but read it and see if things in it resonate with you.
 
