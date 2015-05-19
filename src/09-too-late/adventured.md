@@ -1,6 +1,6 @@
-#Never too late for success
+# How do you deal with professional jealousy and getting older? 
 
-##[adventured](https://news.ycombinator.com/item?id=9339307)
+## [adventured](https://news.ycombinator.com/item?id=9339307)
 
 > I am crippled by the feeling that it's "too late". ...  I can't help but feel that if I had started in earnest at 25, at 21, at 19 — then maybe the list of accomplishments at the end of my life will be longer.
 
